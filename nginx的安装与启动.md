@@ -62,9 +62,11 @@ centos平台使用以下指令：
  	kill -QUIT 进程号  
 ### 2.3 重启  
 	cd /usr/local/nginx/sbin
-	./nginx  -s reload
+	./nginx  -s reload  
+  
 # 3 访问nginx  
 可以在nginx.conf中查看和修改端口号，注意默认是80端口可能和Apache冲突  
+
 直接在浏览器访问 主机名：端口号  即可看见nginx的欢迎界面。
 
 
